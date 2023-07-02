@@ -15,7 +15,7 @@ struct ContentView: View {
         VStack {
             TextField("Type your sentence here", text: $pangram)
                 .onChange(of: pangram) { newValue in
-                    validate(newValue)
+                    updateLetters(newValue)
                 }
             HStack {
                 ForEach(0..<13) { index in
@@ -31,7 +31,7 @@ struct ContentView: View {
         .padding()
     }
     
-    private func validate(_ pangram: String) {
+    private func updateLetters(_ pangram: String) {
         for i in 0..<letters.letters.count {
             let letter = letters.letters[i].name
             if pangram.uppercased().contains(letter) {
