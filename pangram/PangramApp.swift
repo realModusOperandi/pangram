@@ -8,10 +8,11 @@
 import SwiftUI
 
 @main
-struct pangramApp: App {
+struct PangramApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
         }
+        .windowResizability(.contentSize)
     }
 }

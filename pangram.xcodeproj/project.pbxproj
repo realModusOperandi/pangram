@@ -7,21 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0C17E08F2A51D335001012EF /* pangramApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C17E08E2A51D335001012EF /* pangramApp.swift */; };
+		0C17E08F2A51D335001012EF /* PangramApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C17E08E2A51D335001012EF /* PangramApp.swift */; };
 		0C17E0912A51D335001012EF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C17E0902A51D335001012EF /* ContentView.swift */; };
 		0C17E0932A51D336001012EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C17E0922A51D336001012EF /* Assets.xcassets */; };
 		0C17E0962A51D336001012EF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C17E0952A51D336001012EF /* Preview Assets.xcassets */; };
 		0CE585BC2A51EF4B00902FDA /* Letters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE585BB2A51EF4B00902FDA /* Letters.swift */; };
+		0CE585BE2A52019200902FDA /* Letter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE585BD2A52019200902FDA /* Letter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0C17E08B2A51D335001012EF /* pangram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pangram.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0C17E08E2A51D335001012EF /* pangramApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pangramApp.swift; sourceTree = "<group>"; };
+		0C17E08B2A51D335001012EF /* Pangram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pangram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C17E08E2A51D335001012EF /* PangramApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PangramApp.swift; sourceTree = "<group>"; };
 		0C17E0902A51D335001012EF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0C17E0922A51D336001012EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0C17E0952A51D336001012EF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0C17E0972A51D336001012EF /* pangram.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = pangram.entitlements; sourceTree = "<group>"; };
 		0CE585BB2A51EF4B00902FDA /* Letters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Letters.swift; sourceTree = "<group>"; };
+		0CE585BD2A52019200902FDA /* Letter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Letter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,7 +48,7 @@
 		0C17E08C2A51D335001012EF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0C17E08B2A51D335001012EF /* pangram.app */,
+				0C17E08B2A51D335001012EF /* Pangram.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,12 +56,13 @@
 		0C17E08D2A51D335001012EF /* pangram */ = {
 			isa = PBXGroup;
 			children = (
-				0C17E08E2A51D335001012EF /* pangramApp.swift */,
+				0C17E08E2A51D335001012EF /* PangramApp.swift */,
 				0C17E0902A51D335001012EF /* ContentView.swift */,
 				0C17E0922A51D336001012EF /* Assets.xcassets */,
 				0C17E0972A51D336001012EF /* pangram.entitlements */,
 				0C17E0942A51D336001012EF /* Preview Content */,
 				0CE585BB2A51EF4B00902FDA /* Letters.swift */,
+				0CE585BD2A52019200902FDA /* Letter.swift */,
 			);
 			path = pangram;
 			sourceTree = "<group>";
@@ -75,9 +78,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0C17E08A2A51D335001012EF /* pangram */ = {
+		0C17E08A2A51D335001012EF /* Pangram */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0C17E09A2A51D336001012EF /* Build configuration list for PBXNativeTarget "pangram" */;
+			buildConfigurationList = 0C17E09A2A51D336001012EF /* Build configuration list for PBXNativeTarget "Pangram" */;
 			buildPhases = (
 				0C17E0872A51D335001012EF /* Sources */,
 				0C17E0882A51D335001012EF /* Frameworks */,
@@ -87,9 +90,9 @@
 			);
 			dependencies = (
 			);
-			name = pangram;
+			name = Pangram;
 			productName = pangram;
-			productReference = 0C17E08B2A51D335001012EF /* pangram.app */;
+			productReference = 0C17E08B2A51D335001012EF /* Pangram.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -120,7 +123,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0C17E08A2A51D335001012EF /* pangram */,
+				0C17E08A2A51D335001012EF /* Pangram */,
 			);
 		};
 /* End PBXProject section */
@@ -144,7 +147,8 @@
 			files = (
 				0C17E0912A51D335001012EF /* ContentView.swift in Sources */,
 				0CE585BC2A51EF4B00902FDA /* Letters.swift in Sources */,
-				0C17E08F2A51D335001012EF /* pangramApp.swift in Sources */,
+				0C17E08F2A51D335001012EF /* PangramApp.swift in Sources */,
+				0CE585BE2A52019200902FDA /* Letter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +285,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"pangram/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Pangram;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -307,6 +312,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"pangram/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Pangram;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -333,7 +339,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0C17E09A2A51D336001012EF /* Build configuration list for PBXNativeTarget "pangram" */ = {
+		0C17E09A2A51D336001012EF /* Build configuration list for PBXNativeTarget "Pangram" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0C17E09B2A51D336001012EF /* Debug */,

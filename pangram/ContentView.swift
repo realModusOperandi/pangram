@@ -7,12 +7,6 @@
 
 import SwiftUI
 
-struct Letter: Identifiable {
-    let name: String
-    var present = false
-    var id: String { name }
-}
-
 struct ContentView: View {
     @State var pangram: String = ""
     @ObservedObject var letters = Letters()
