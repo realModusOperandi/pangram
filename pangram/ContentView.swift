@@ -20,12 +20,12 @@ struct ContentView: View {
             HStack {
                 ForEach(0..<13) { index in
                     LetterView(letter: $letters.letters[index])
-                }.fixedSize().border(.foreground)
+                }.fixedSize()
             }
             HStack {
                 ForEach(13..<26) { index in
                     LetterView(letter: $letters.letters[index])
-                }.fixedSize().border(.foreground)
+                }.fixedSize()
             }
         }
         .padding()
@@ -40,19 +40,6 @@ struct ContentView: View {
                 letters.letters[i].present = false
             }
         }
-    }
-}
-
-struct LetterView: View {
-    @Binding var letter: Letter
-    
-    var body: some View {
-        Text(letter.name)
-            .font(.largeTitle)
-            .padding()
-            .frame(minWidth: 60)
-            .background($letter.wrappedValue.present ? Color.white : Color(NSColor.windowBackgroundColor))
-            .foregroundStyle($letter.wrappedValue.present ? .black : .gray)
     }
 }
 
